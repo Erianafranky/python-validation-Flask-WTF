@@ -6,7 +6,7 @@ from wtforms.validators import InputRequired
 app = Flask(__name__)
 
 # For CSRF token
-app.config['SECRET_KEY'] = 'dfewfew123213rwdsgert34tgfd1234trgf'
+app.config['SECRET_KEY'] = 'key'
 
 # Create a Form Class
 class NameForm(FlaskForm):
